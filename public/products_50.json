@@ -1,0 +1,854 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "BDTronics Product 1",
+      "category": "BDTronics Category",
+      "price": 110,
+      "stock": 51,
+      "description": "Description of Product 1.",
+      "brand": "BDTronics",
+      "rating": 3.6,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 37
+    },
+    {
+      "id": 2,
+      "name": "BDTronics Product 2",
+      "category": "BDTronics Category",
+      "price": 120,
+      "stock": 52,
+      "description": "Description of Product 2.",
+      "brand": "BDTronics",
+      "rating": 3.7,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 40
+    },
+    {
+      "id": 3,
+      "name": "BDTronics Product 3",
+      "category": "BDTronics Category",
+      "price": 130,
+      "stock": 53,
+      "description": "Description of Product 3.",
+      "brand": "BDTronics",
+      "rating": 3.8,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 34
+    },
+    {
+      "id": 4,
+      "name": "BDTronics Product 4",
+      "category": "BDTronics Category",
+      "price": 140,
+      "stock": 54,
+      "description": "Description of Product 4.",
+      "brand": "BDTronics",
+      "rating": 3.9,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 9
+    },
+    {
+      "id": 5,
+      "name": "BDTronics Product 5",
+      "category": "BDTronics Category",
+      "price": 150,
+      "stock": 55,
+      "description": "Description of Product 5.",
+      "brand": "BDTronics",
+      "rating": 3.5,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 35
+    },
+    {
+      "id": 6,
+      "name": "BDTronics Product 6",
+      "category": "BDTronics Category",
+      "price": 160,
+      "stock": 56,
+      "description": "Description of Product 6.",
+      "brand": "BDTronics",
+      "rating": 3.6,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 16
+    },
+    {
+      "id": 7,
+      "name": "BDTronics Product 7",
+      "category": "BDTronics Category",
+      "price": 170,
+      "stock": 57,
+      "description": "Description of Product 7.",
+      "brand": "BDTronics",
+      "rating": 3.7,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 11
+    },
+    {
+      "id": 8,
+      "name": "BDTronics Product 8",
+      "category": "BDTronics Category",
+      "price": 180,
+      "stock": 58,
+      "description": "Description of Product 8.",
+      "brand": "BDTronics",
+      "rating": 3.8,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 40
+    },
+    {
+      "id": 9,
+      "name": "BDTronics Product 9",
+      "category": "BDTronics Category",
+      "price": 190,
+      "stock": 59,
+      "description": "Description of Product 9.",
+      "brand": "BDTronics",
+      "rating": 3.9,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 9
+    },
+    {
+      "id": 10,
+      "name": "BDTronics Product 10",
+      "category": "BDTronics Category",
+      "price": 200,
+      "stock": 60,
+      "description": "Description of Product 10.",
+      "brand": "BDTronics",
+      "rating": 3.5,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 31
+    },
+    {
+      "id": 11,
+      "name": "BDTronics Product 11",
+      "category": "BDTronics Category",
+      "price": 210,
+      "stock": 61,
+      "description": "Description of Product 11.",
+      "brand": "BDTronics",
+      "rating": 3.6,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 13
+    },
+    {
+      "id": 12,
+      "name": "BDTronics Product 12",
+      "category": "BDTronics Category",
+      "price": 220,
+      "stock": 62,
+      "description": "Description of Product 12.",
+      "brand": "BDTronics",
+      "rating": 3.7,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 37
+    },
+    {
+      "id": 13,
+      "name": "BDTronics Product 13",
+      "category": "BDTronics Category",
+      "price": 230,
+      "stock": 63,
+      "description": "Description of Product 13.",
+      "brand": "BDTronics",
+      "rating": 3.8,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 25
+    },
+    {
+      "id": 14,
+      "name": "BDTronics Product 14",
+      "category": "BDTronics Category",
+      "price": 240,
+      "stock": 64,
+      "description": "Description of Product 14.",
+      "brand": "BDTronics",
+      "rating": 3.9,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 32
+    },
+    {
+      "id": 15,
+      "name": "BDTronics Product 15",
+      "category": "BDTronics Category",
+      "price": 250,
+      "stock": 65,
+      "description": "Description of Product 15.",
+      "brand": "BDTronics",
+      "rating": 3.5,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 42
+    },
+    {
+      "id": 16,
+      "name": "BDTronics Product 16",
+      "category": "BDTronics Category",
+      "price": 260,
+      "stock": 66,
+      "description": "Description of Product 16.",
+      "brand": "BDTronics",
+      "rating": 3.6,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 19
+    },
+    {
+      "id": 17,
+      "name": "BDTronics Product 17",
+      "category": "BDTronics Category",
+      "price": 270,
+      "stock": 67,
+      "description": "Description of Product 17.",
+      "brand": "BDTronics",
+      "rating": 3.7,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 38
+    },
+    {
+      "id": 18,
+      "name": "BDTronics Product 18",
+      "category": "BDTronics Category",
+      "price": 280,
+      "stock": 68,
+      "description": "Description of Product 18.",
+      "brand": "BDTronics",
+      "rating": 3.8,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 30
+    },
+    {
+      "id": 19,
+      "name": "BDTronics Product 19",
+      "category": "BDTronics Category",
+      "price": 290,
+      "stock": 69,
+      "description": "Description of Product 19.",
+      "brand": "BDTronics",
+      "rating": 3.9,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 26
+    },
+    {
+      "id": 20,
+      "name": "BDTronics Product 20",
+      "category": "BDTronics Category",
+      "price": 300,
+      "stock": 50,
+      "description": "Description of Product 20.",
+      "brand": "BDTronics",
+      "rating": 3.5,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 28
+    },
+    {
+      "id": 21,
+      "name": "BDTronics Product 21",
+      "category": "BDTronics Category",
+      "price": 310,
+      "stock": 51,
+      "description": "Description of Product 21.",
+      "brand": "BDTronics",
+      "rating": 3.6,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 22
+    },
+    {
+      "id": 22,
+      "name": "BDTronics Product 22",
+      "category": "BDTronics Category",
+      "price": 320,
+      "stock": 52,
+      "description": "Description of Product 22.",
+      "brand": "BDTronics",
+      "rating": 3.7,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 20
+    },
+    {
+      "id": 23,
+      "name": "BDTronics Product 23",
+      "category": "BDTronics Category",
+      "price": 330,
+      "stock": 53,
+      "description": "Description of Product 23.",
+      "brand": "BDTronics",
+      "rating": 3.8,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 29
+    },
+    {
+      "id": 24,
+      "name": "BDTronics Product 24",
+      "category": "BDTronics Category",
+      "price": 340,
+      "stock": 54,
+      "description": "Description of Product 24.",
+      "brand": "BDTronics",
+      "rating": 3.9,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 9
+    },
+    {
+      "id": 25,
+      "name": "BDTronics Product 25",
+      "category": "BDTronics Category",
+      "price": 350,
+      "stock": 55,
+      "description": "Description of Product 25.",
+      "brand": "BDTronics",
+      "rating": 3.5,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 6
+    },
+    {
+      "id": 26,
+      "name": "BDTronics Product 26",
+      "category": "BDTronics Category",
+      "price": 360,
+      "stock": 56,
+      "description": "Description of Product 26.",
+      "brand": "BDTronics",
+      "rating": 3.6,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 7
+    },
+    {
+      "id": 27,
+      "name": "BDTronics Product 27",
+      "category": "BDTronics Category",
+      "price": 370,
+      "stock": 57,
+      "description": "Description of Product 27.",
+      "brand": "BDTronics",
+      "rating": 3.7,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 32
+    },
+    {
+      "id": 28,
+      "name": "BDTronics Product 28",
+      "category": "BDTronics Category",
+      "price": 380,
+      "stock": 58,
+      "description": "Description of Product 28.",
+      "brand": "BDTronics",
+      "rating": 3.8,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 45
+    },
+    {
+      "id": 29,
+      "name": "BDTronics Product 29",
+      "category": "BDTronics Category",
+      "price": 390,
+      "stock": 59,
+      "description": "Description of Product 29.",
+      "brand": "BDTronics",
+      "rating": 3.9,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 16
+    },
+    {
+      "id": 30,
+      "name": "BDTronics Product 30",
+      "category": "BDTronics Category",
+      "price": 400,
+      "stock": 60,
+      "description": "Description of Product 30.",
+      "brand": "BDTronics",
+      "rating": 3.5,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 11
+    },
+    {
+      "id": 31,
+      "name": "BDTronics Product 31",
+      "category": "BDTronics Category",
+      "price": 410,
+      "stock": 61,
+      "description": "Description of Product 31.",
+      "brand": "BDTronics",
+      "rating": 3.6,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 27
+    },
+    {
+      "id": 32,
+      "name": "BDTronics Product 32",
+      "category": "BDTronics Category",
+      "price": 420,
+      "stock": 62,
+      "description": "Description of Product 32.",
+      "brand": "BDTronics",
+      "rating": 3.7,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 7
+    },
+    {
+      "id": 33,
+      "name": "BDTronics Product 33",
+      "category": "BDTronics Category",
+      "price": 430,
+      "stock": 63,
+      "description": "Description of Product 33.",
+      "brand": "BDTronics",
+      "rating": 3.8,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 49
+    },
+    {
+      "id": 34,
+      "name": "BDTronics Product 34",
+      "category": "BDTronics Category",
+      "price": 440,
+      "stock": 64,
+      "description": "Description of Product 34.",
+      "brand": "BDTronics",
+      "rating": 3.9,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 21
+    },
+    {
+      "id": 35,
+      "name": "BDTronics Product 35",
+      "category": "BDTronics Category",
+      "price": 450,
+      "stock": 65,
+      "description": "Description of Product 35.",
+      "brand": "BDTronics",
+      "rating": 3.5,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 34
+    },
+    {
+      "id": 36,
+      "name": "BDTronics Product 36",
+      "category": "BDTronics Category",
+      "price": 460,
+      "stock": 66,
+      "description": "Description of Product 36.",
+      "brand": "BDTronics",
+      "rating": 3.6,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 42
+    },
+    {
+      "id": 37,
+      "name": "BDTronics Product 37",
+      "category": "BDTronics Category",
+      "price": 470,
+      "stock": 67,
+      "description": "Description of Product 37.",
+      "brand": "BDTronics",
+      "rating": 3.7,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 25
+    },
+    {
+      "id": 38,
+      "name": "BDTronics Product 38",
+      "category": "BDTronics Category",
+      "price": 480,
+      "stock": 68,
+      "description": "Description of Product 38.",
+      "brand": "BDTronics",
+      "rating": 3.8,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 29
+    },
+    {
+      "id": 39,
+      "name": "BDTronics Product 39",
+      "category": "BDTronics Category",
+      "price": 490,
+      "stock": 69,
+      "description": "Description of Product 39.",
+      "brand": "BDTronics",
+      "rating": 3.9,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 36
+    },
+    {
+      "id": 40,
+      "name": "BDTronics Product 40",
+      "category": "BDTronics Category",
+      "price": 500,
+      "stock": 50,
+      "description": "Description of Product 40.",
+      "brand": "BDTronics",
+      "rating": 3.5,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 21
+    },
+    {
+      "id": 41,
+      "name": "BDTronics Product 41",
+      "category": "BDTronics Category",
+      "price": 510,
+      "stock": 51,
+      "description": "Description of Product 41.",
+      "brand": "BDTronics",
+      "rating": 3.6,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 35
+    },
+    {
+      "id": 42,
+      "name": "BDTronics Product 42",
+      "category": "BDTronics Category",
+      "price": 520,
+      "stock": 52,
+      "description": "Description of Product 42.",
+      "brand": "BDTronics",
+      "rating": 3.7,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 14
+    },
+    {
+      "id": 43,
+      "name": "BDTronics Product 43",
+      "category": "BDTronics Category",
+      "price": 530,
+      "stock": 53,
+      "description": "Description of Product 43.",
+      "brand": "BDTronics",
+      "rating": 3.8,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 50
+    },
+    {
+      "id": 44,
+      "name": "BDTronics Product 44",
+      "category": "BDTronics Category",
+      "price": 540,
+      "stock": 54,
+      "description": "Description of Product 44.",
+      "brand": "BDTronics",
+      "rating": 3.9,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 12
+    },
+    {
+      "id": 45,
+      "name": "BDTronics Product 45",
+      "category": "BDTronics Category",
+      "price": 550,
+      "stock": 55,
+      "description": "Description of Product 45.",
+      "brand": "BDTronics",
+      "rating": 3.5,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 10
+    },
+    {
+      "id": 46,
+      "name": "BDTronics Product 46",
+      "category": "BDTronics Category",
+      "price": 560,
+      "stock": 56,
+      "description": "Description of Product 46.",
+      "brand": "BDTronics",
+      "rating": 3.6,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 31
+    },
+    {
+      "id": 47,
+      "name": "BDTronics Product 47",
+      "category": "BDTronics Category",
+      "price": 570,
+      "stock": 57,
+      "description": "Description of Product 47.",
+      "brand": "BDTronics",
+      "rating": 3.7,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 12
+    },
+    {
+      "id": 48,
+      "name": "BDTronics Product 48",
+      "category": "BDTronics Category",
+      "price": 580,
+      "stock": 58,
+      "description": "Description of Product 48.",
+      "brand": "BDTronics",
+      "rating": 3.8,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 41
+    },
+    {
+      "id": 49,
+      "name": "BDTronics Product 49",
+      "category": "BDTronics Category",
+      "price": 590,
+      "stock": 59,
+      "description": "Description of Product 49.",
+      "brand": "BDTronics",
+      "rating": 3.9,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 45
+    },
+    {
+      "id": 50,
+      "name": "BDTronics Product 50",
+      "category": "BDTronics Category",
+      "price": 600,
+      "stock": 60,
+      "description": "Description of Product 50.",
+      "brand": "BDTronics",
+      "rating": 3.5,
+      "image_url": "https://via.placeholder.com/150",
+      "image_urls": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/151",
+        "https://via.placeholder.com/152"
+      ],
+      "discount": 18
+    }
+  ]
+}
