@@ -1,44 +1,84 @@
-import {useState,useEffect} from 'react'
-import {useParams,useLocation} from 'react-router'
-import useAxios from '../hooks/useAxios.js'
-import ProductImageSlide from '../Components/ProductImageSlide.jsx'
-import {Typography,Rating,Badge,Button} from '@mui/material'
-import useCartsData from '../hooks/useCartsData.js'
+import { useState, useEffect } from "react";
+import { useParams } from "react-router";
+import useAxios from "../hooks/useAxios.js";
+import ProductImageSlide from "../Components/ProductImageSlide.jsx";
+import { Typography, Rating, Badge, Button } from "@mui/material";
+import useCartsData from "../hooks/useCartsData.js";
 
 const ProductDetails = () => {
-  const {id} = useParams()
+  const { id } = useParams();
   const product = useAxios(`/product/${id}`);
-  const {handleCart} = useCartsData();
-  
+  const { handleCart } = useCartsData();
+
   return (
-    <div>
+    <div className="container mx-auto px-4 lg:px-16 py-6 grid grid-cols-1 lg:grid-cols-2 gap-6">
+      {/* Left Side - Product Image */}
       <div>
-        <ProductImageSlide product={product}/>
+        <ProductImageSlide product={product} />
       </div>
-      <div className='mt-3 mb-32 relative'>
-        <Typography variant='h6'>{product?.name}</Typography>
-        <div className='flex items-center justify-between'>
-          {product?.rating &&<Rating readOnly name="half-rating"  defaultValue={product?.rating} precision={0.5} />}
-          <div className='flex items-center gap-3'>
-             <Badge size='lg' color='success' variant='dot'/>
-             <span>In Stock</span>
+
+      {/* Right Side - Product Details */}
+      <div className="flex flex-col gap-4">
+        <Typography variant="h5" className="font-bold">
+          {product?.name}
+        </Typography>
+        <div className="flex items-center gap-4">
+          {product?.rating && (
+            <Rating
+              readOnly
+              name="half-rating"
+              defaultValue={product?.rating}
+              precision={0.5}
+            />
+          )}
+          <div className="flex items-center gap-2 text-green-600 font-medium">
+            <Badge size="lg" color="success" variant="dot" />
+            <span>In Stock</span>
           </div>
         </div>
-      <form onSubmit={(e)=> handleCart(e,product,e.target.qty.value)} className='fixed grid grid-cols-6 left-0 right-0 mx-auto z-50 w-full bottom-16 px-3 py-2 bg-white border'>
-        <div className='col-span-2 flex items-center gap-2'>
-          <span className='text-sm'>Qty</span>
-          <input name='qty' className='w-8 h-8 text-center outline-none border' type='number' defaultValue='1'/>
+
+        {/* Pricing Section */}
+        <div className="flex items-center gap-3 text-xl font-bold">
+          <span className="text-red-500">৳ {product?.price}</span>
+          {product?.originalPrice && (
+            <span className="text-gray-500 line-through text-lg">
+              ৳ {product?.originalPrice}
+            </span>
+          )}
         </div>
-        <div className='col-span-4 flex items-center justify-between '>
-          <Button color='success' variant='contained'>Buy Now</Button>
-          <Button  type='submit'  variant='contained'>Add to Cart</Button>
-        </div>
-        
-        
-      </form>
+
+        {/* Purchase Section */}
+        <form
+          onSubmit={(e) => handleCart(e, product, e.target.qty.value)}
+          className="fixed md:static bottom-16 flex items-center gap-4"
+        >
+          <div className="flex items-center gap-2 border rounded-md p-2">
+            <span className="text-sm">Qty</span>
+            <input
+              name="qty"
+              className="w-12 h-10 text-center border rounded-md"
+              type="number"
+              defaultValue="1"
+            />
+          </div>
+          <Button
+            color="success"
+            variant="contained"
+            className="md:w-32 h-12 text-md"
+          >
+            Buy Now
+          </Button>
+          <Button
+            type="submit"
+            variant="contained"
+            className="md:w-32 h-12 text-md bg-yellow-500 hover:bg-yellow-600"
+          >
+            Add to Cart
+          </Button>
+        </form>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProductDetails
+export default ProductDetails;
